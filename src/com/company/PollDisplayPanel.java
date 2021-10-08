@@ -113,11 +113,11 @@ public class PollDisplayPanel extends JPanel
         y += (r + 20);
         g.setColor(Color.BLACK);
 
-        g.drawString(name1, x - r, y);
+        g.drawString(count1, x - r, y);
 
-        g.drawString(name2, x, y);
+        g.drawString(count2, x, y);
 
-        g.drawString(name3, x + r, y);
+        g.drawString(count3, x + r, y);
 
 
         // Display the color squares:
